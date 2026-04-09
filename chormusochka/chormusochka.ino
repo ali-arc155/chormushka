@@ -12,14 +12,14 @@ camera_fb_t* frame = nullptr;
 
 
 // Токен авторизации для доступа к Яндекс Диску (замените на ваш реальный токен)
-const char* yandexToken = "y0__xC2tomtBBjDoD8gkILX6BaiovIEFn2074Gwr-VLJD04PiNOOA";
+const char* yandexToken = "";
 
 // Путь к папке на Яндекс Диске, куда будут загружаться фото
 const String folderPath = "/ESP-CAM";
 
 // Данные для подключения к Wi‑Fi сети
-const char* ssid = "monitor";      // Имя Wi‑Fi сети (замените на ваше)
-const char* password = "monitor123";   // Пароль Wi‑Fi (замените на ваш)
+const char* ssid = "";      // Имя Wi‑Fi сети (замените на ваше)
+const char* password = "";   // Пароль Wi‑Fi (замените на ваш)
 
 // Конфигурация камеры для модуля AI‑Thinker ESP32‑CAM
 camera_config_t config = {
